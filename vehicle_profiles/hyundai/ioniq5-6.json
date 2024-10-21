@@ -24,6 +24,24 @@
           "class": "power"
         },
         {
+          "name": "Charger_Connected",
+          "expression": "B15:5",
+          "unit": "",
+          "class": ""
+        },
+        {
+          "name": "Charging",
+          "expression": "B15:7",
+          "unit": "",
+          "class": ""
+        },
+        {
+          "name": "HV_Charger_Connected",
+          "expression": "B15:6",
+          "unit": "",
+          "class": ""
+        },
+        {
           "name": "Batt_Current",
           "expression": "(65536-([B17:B18]))/10",
           "unit": "A",
